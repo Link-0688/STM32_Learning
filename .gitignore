@@ -1,0 +1,20 @@
+# Keil MDK 产生的编译临时文件
+*.o
+*.d
+*.crf
+*.lnp
+*.axf
+*.htm
+*.sct
+*.dep
+*.lst
+*.map
+Build/
+Object/
+List/
+# CubeMX 产生的备份
+*.bak
+# 编译产物
+*.hex
+# Keil 用户界面布局(机器相关)
+*.uvguix.*
