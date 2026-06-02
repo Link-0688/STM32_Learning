@@ -18,3 +18,7 @@ List/
 *.hex
 # Keil 用户界面布局(机器相关)
 *.uvguix.*
+# Keil 其他编译垃圾
+*.iex
+JLinkLog.txt
+JLinkSettings.ini
