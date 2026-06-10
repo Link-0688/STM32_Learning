@@ -1,0 +1,42 @@
+# --- 编译输出 ---
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.out
+*.a
+*.la
+*.lo
+*.so
+*.dll
+
+# --- 编译缓存 & 中间件 ---
+build/
+build_*/
+/build/
+/build_debug/
+/build_release/
+.cmake/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.cmake.in
+
+# --- IDE / 编辑器 ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# --- STM32CubeMX ---
+.mxproject
+
+# --- 其他 ---
+*.bak
+*.tmp
