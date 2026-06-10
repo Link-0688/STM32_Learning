@@ -12,6 +12,13 @@
 *.lo
 *.so
 *.dll
+*.d
+*.crf
+*.lnp
+*.axf
+*.htm
+*.sct
+*.dep
 
 # --- 编译缓存 & 中间件 ---
 build/
@@ -19,6 +26,9 @@ build_*/
 /build/
 /build_debug/
 /build_release/
+Build/
+Object/
+List/
 .cmake/
 CMakeFiles/
 CMakeCache.txt
@@ -33,9 +43,15 @@ cmake_install.cmake
 *~
 .DS_Store
 Thumbs.db
+*.uvguix.*
 
 # --- STM32CubeMX ---
 .mxproject
+
+# --- Keil MDK 专属 ---
+*.iex
+JLinkLog.txt
+JLinkSettings.ini
 
 # --- 其他 ---
 *.bak
